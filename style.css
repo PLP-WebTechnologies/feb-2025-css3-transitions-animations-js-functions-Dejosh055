@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: aqua;
+    border: none;
+    border-radius:20px;
+    width:200px;
+    padding:10px;
+    font-family: monospace;
+    font-size:16px;
+    font-weight: 700;
+    margin-top: 28px;
+    box-shadow:5px 5px 2px #464545;
+}
+.animation{
+    width: 200px;
+    height:150px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: blue;
+    margin: 20px;
+    padding:20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    animation: aminate 2s steps(5) infinite;
+    opacity: 1;
+}
+
+
+@keyframes aminate{
+   
+    0%{
+        transform:translateX(100%);
+        background-color: aquamarine;
+    }
+}
